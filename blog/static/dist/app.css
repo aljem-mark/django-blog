@@ -11405,7 +11405,24 @@ h1, h2, h3, h4 {
 }
 
 .post {
-  margin-bottom: 70px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+}
+
+.post-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
 }
 
 .post h2 a, .post h2 a:visited {
@@ -11414,6 +11431,9 @@ h1, h2, h3, h4 {
 
 .form-control {
   border-width: 1px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 640px) {

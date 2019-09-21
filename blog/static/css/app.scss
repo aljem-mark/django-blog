@@ -44,7 +44,11 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    @apply flex bg-white rounded p-4 mb-3 shadow-md justify-between;
+}
+
+.post-detail {
+    @apply flex flex-col bg-white rounded p-4 mb-3 shadow-md justify-between;
 }
 
 .post h2 a, .post h2 a:visited {
@@ -52,5 +56,5 @@ h1, h2, h3, h4 {
 }
 
 .form-control {
-    @apply border;
+    @apply border mb-4 p-2 rounded;
 }
