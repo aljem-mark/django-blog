@@ -11412,6 +11412,10 @@ h1, h2, h3, h4 {
   color: #000000;
 }
 
+.form-control {
+  border-width: 1px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
